@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{source('dbt_schema','employee')}}
+    select * from {{source('dbt_project','employee')}}
 )
 
 select * from source;
