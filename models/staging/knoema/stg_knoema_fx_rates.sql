@@ -1,6 +1,6 @@
 with source as (
  
-    select * from {{source('knoema_economy_data_atlas','exratescc2018') }}
+    select * from {{source('economy_data_atlas','exratescc2018') }}
  
 ), 
  

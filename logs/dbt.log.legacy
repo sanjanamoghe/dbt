@@ -1975,3 +1975,321 @@ There are 1 unused configuration paths:
 2022-01-27 06:59:06.662092 (Thread-193): handling status request
 2022-01-27 06:59:06.662472 (Thread-193): 06:59:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546e9dc0>]}
 2022-01-27 06:59:06.662983 (Thread-193): sending response (<Response 2041 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 06:59:08.598834 (Thread-194): 06:59:08  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 06:59:08.599068 (Thread-194): 06:59:08  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 06:59:08.599548 (Thread-194): 06:59:08  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 06:59:08.604964 (Thread-194): 06:59:08  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546719a0>]}
+2022-01-27 06:59:09.486493 (Thread-195): handling status request
+2022-01-27 06:59:09.486884 (Thread-195): 06:59:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546708b0>]}
+2022-01-27 06:59:09.487474 (Thread-195): sending response (<Response 1680 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 06:59:09.509484 (Thread-196): handling status request
+2022-01-27 06:59:09.509912 (Thread-196): 06:59:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54670970>]}
+2022-01-27 06:59:09.510441 (Thread-196): sending response (<Response 1680 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 06:59:11.317536 (Thread-197): handling status request
+2022-01-27 06:59:11.317930 (Thread-197): 06:59:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54670e20>]}
+2022-01-27 06:59:11.318431 (Thread-197): sending response (<Response 1658 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:11.323506 (Thread-198): handling list request
+2022-01-27 06:59:11.323799 (Thread-198): 06:59:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54670730>]}
+2022-01-27 06:59:11.353622 (Thread-198): 06:59:11  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546baa30>]}
+2022-01-27 06:59:11.353975 (Thread-198): 06:59:11  Found 4 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 06:59:11.356336 (Thread-198): sending response (<Response 2109 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:15.999895 (Thread-199): handling status request
+2022-01-27 06:59:16.000291 (Thread-199): 06:59:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546716d0>]}
+2022-01-27 06:59:16.000798 (Thread-199): sending response (<Response 1680 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 06:59:16.429305 (Thread-200): handling status request
+2022-01-27 06:59:16.429693 (Thread-200): 06:59:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54671670>]}
+2022-01-27 06:59:16.430192 (Thread-200): sending response (<Response 1680 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 06:59:16.491353 (Thread-201): handling cli_args request
+2022-01-27 06:59:16.491748 (Thread-201): 06:59:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54672b50>]}
+2022-01-27 06:59:18.746877 (Thread-201): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 06:59:18.846675 (MainThread): 06:59:18  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 06:59:18.847257 (MainThread): 06:59:18  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 06:59:18.847841 (MainThread): 06:59:18  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 06:59:18.853474 (MainThread): 06:59:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2452df04-8aa3-4a57-9d27-20b44fa4ee0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40bdef8580>]}
+2022-01-27 06:59:18.880205 (MainThread): 06:59:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2452df04-8aa3-4a57-9d27-20b44fa4ee0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40bdf5cb80>]}
+2022-01-27 06:59:18.880658 (MainThread): 06:59:18  Found 4 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 06:59:18.881846 (MainThread): 06:59:18  
+2022-01-27 06:59:18.882210 (MainThread): 06:59:18  Acquiring new snowflake connection "master"
+2022-01-27 06:59:18.883327 (ThreadPoolExecutor-0_0): 06:59:18  Acquiring new snowflake connection "list_DEV"
+2022-01-27 06:59:18.896019 (ThreadPoolExecutor-0_0): 06:59:18  Using snowflake connection "list_DEV"
+2022-01-27 06:59:18.896157 (ThreadPoolExecutor-0_0): 06:59:18  On list_DEV: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV"} */
+
+    show terse schemas in database DEV
+    limit 10000
+2022-01-27 06:59:18.896246 (ThreadPoolExecutor-0_0): 06:59:18  Opening a new connection, currently in state init
+2022-01-27 06:59:19.229085 (Thread-202): handling poll request
+2022-01-27 06:59:19.229606 (Thread-202): 06:59:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545fb490>]}
+2022-01-27 06:59:19.230561 (Thread-202): sending response (<Response 4564 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 06:59:19.593694 (ThreadPoolExecutor-0_0): 06:59:19  SQL status: SUCCESS 5 in 0.7 seconds
+2022-01-27 06:59:19.595863 (ThreadPoolExecutor-0_0): 06:59:19  On list_DEV: Close
+2022-01-27 06:59:19.807436 (ThreadPoolExecutor-0_0): 06:59:19  Acquiring new snowflake connection "create_DEV_dbt_schema_staging"
+2022-01-27 06:59:19.807727 (ThreadPoolExecutor-0_0): 06:59:19  Acquiring new snowflake connection "create_DEV_dbt_schema_staging"
+2022-01-27 06:59:19.807977 (ThreadPoolExecutor-0_0): 06:59:19  Creating schema "_ReferenceKey(database='dev', schema='dbt_schema_staging', identifier=None)"
+2022-01-27 06:59:19.813627 (ThreadPoolExecutor-0_0): 06:59:19  Using snowflake connection "create_DEV_dbt_schema_staging"
+2022-01-27 06:59:19.813762 (ThreadPoolExecutor-0_0): 06:59:19  On create_DEV_dbt_schema_staging: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "create_DEV_dbt_schema_staging"} */
+create schema if not exists DEV.dbt_schema_staging
+2022-01-27 06:59:19.813861 (ThreadPoolExecutor-0_0): 06:59:19  Opening a new connection, currently in state closed
+2022-01-27 06:59:20.231138 (ThreadPoolExecutor-0_0): 06:59:20  SQL status: SUCCESS 1 in 0.42 seconds
+2022-01-27 06:59:20.232114 (ThreadPoolExecutor-0_0): 06:59:20  On create_DEV_dbt_schema_staging: Close
+2022-01-27 06:59:20.451007 (ThreadPoolExecutor-2_0): 06:59:20  Acquiring new snowflake connection "list_DEV_dbt_schema_staging"
+2022-01-27 06:59:20.458017 (ThreadPoolExecutor-2_0): 06:59:20  Using snowflake connection "list_DEV_dbt_schema_staging"
+2022-01-27 06:59:20.458163 (ThreadPoolExecutor-2_0): 06:59:20  On list_DEV_dbt_schema_staging: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV_dbt_schema_staging"} */
+
+    show terse objects in DEV.dbt_schema_staging
+2022-01-27 06:59:20.458251 (ThreadPoolExecutor-2_0): 06:59:20  Opening a new connection, currently in state closed
+2022-01-27 06:59:20.458906 (ThreadPoolExecutor-2_1): 06:59:20  Acquiring new snowflake connection "list_DEV_dbt_schema_example"
+2022-01-27 06:59:20.460502 (ThreadPoolExecutor-2_1): 06:59:20  Using snowflake connection "list_DEV_dbt_schema_example"
+2022-01-27 06:59:20.460609 (ThreadPoolExecutor-2_1): 06:59:20  On list_DEV_dbt_schema_example: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV_dbt_schema_example"} */
+
+    show terse objects in DEV.dbt_schema_example
+2022-01-27 06:59:20.460692 (ThreadPoolExecutor-2_1): 06:59:20  Opening a new connection, currently in state init
+2022-01-27 06:59:20.759892 (Thread-203): handling poll request
+2022-01-27 06:59:20.760316 (Thread-203): 06:59:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546782e0>]}
+2022-01-27 06:59:20.761023 (Thread-203): sending response (<Response 6494 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 06:59:21.032332 (ThreadPoolExecutor-2_1): 06:59:21  SQL status: SUCCESS 2 in 0.57 seconds
+2022-01-27 06:59:21.033868 (ThreadPoolExecutor-2_1): 06:59:21  On list_DEV_dbt_schema_example: Close
+2022-01-27 06:59:21.238466 (ThreadPoolExecutor-2_0): 06:59:21  SQL status: SUCCESS 0 in 0.78 seconds
+2022-01-27 06:59:21.239794 (ThreadPoolExecutor-2_0): 06:59:21  On list_DEV_dbt_schema_staging: Close
+2022-01-27 06:59:21.460380 (MainThread): 06:59:21  Concurrency: 4 threads (target='dbt_tab')
+2022-01-27 06:59:21.460558 (MainThread): 06:59:21  
+2022-01-27 06:59:21.463260 (Thread-1): 06:59:21  Began running node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 06:59:21.463589 (Thread-1): 06:59:21  1 of 2 START view model dbt_schema_staging.stg_knoema_fx_rates.................. [RUN]
+2022-01-27 06:59:21.463856 (Thread-1): 06:59:21  Acquiring new snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:21.463961 (Thread-1): 06:59:21  Began compiling node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 06:59:21.464087 (Thread-1): 06:59:21  Compiling model.dbt_project.stg_knoema_fx_rates
+2022-01-27 06:59:21.465000 (Thread-2): 06:59:21  Began running node model.dbt_project.stg_knoema_stock_history
+2022-01-27 06:59:21.465229 (Thread-2): 06:59:21  2 of 2 START view model dbt_schema_staging.stg_knoema_stock_history............. [RUN]
+2022-01-27 06:59:21.465468 (Thread-2): 06:59:21  Acquiring new snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:21.465556 (Thread-2): 06:59:21  Began compiling node model.dbt_project.stg_knoema_stock_history
+2022-01-27 06:59:21.465642 (Thread-2): 06:59:21  Compiling model.dbt_project.stg_knoema_stock_history
+2022-01-27 06:59:21.468069 (Thread-2): 06:59:21  Writing injected SQL for node "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:21.470748 (Thread-1): 06:59:21  Writing injected SQL for node "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:21.491369 (Thread-2): 06:59:21  finished collecting timing info
+2022-01-27 06:59:21.491657 (Thread-2): 06:59:21  Began executing node model.dbt_project.stg_knoema_stock_history
+2022-01-27 06:59:21.496849 (Thread-1): 06:59:21  finished collecting timing info
+2022-01-27 06:59:21.497035 (Thread-1): 06:59:21  Began executing node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 06:59:21.506503 (Thread-2): 06:59:21  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:21.506679 (Thread-2): 06:59:21  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+    show parameters like 'query_tag' in session
+2022-01-27 06:59:21.508425 (Thread-1): 06:59:21  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:21.508538 (Thread-1): 06:59:21  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+    show parameters like 'query_tag' in session
+2022-01-27 06:59:21.508618 (Thread-1): 06:59:21  Opening a new connection, currently in state closed
+2022-01-27 06:59:21.506827 (Thread-2): 06:59:21  Opening a new connection, currently in state closed
+2022-01-27 06:59:21.940612 (Thread-1): 06:59:21  SQL status: SUCCESS 1 in 0.43 seconds
+2022-01-27 06:59:21.941888 (Thread-1): 06:59:21  Setting query_tag to 'stg_knoema_fx_rates'. Will reset to '' after materialization.
+2022-01-27 06:59:21.942409 (Thread-1): 06:59:21  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:21.942507 (Thread-1): 06:59:21  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+    alter session set query_tag = 'stg_knoema_fx_rates'
+2022-01-27 06:59:21.946947 (Thread-2): 06:59:21  SQL status: SUCCESS 1 in 0.44 seconds
+2022-01-27 06:59:21.948090 (Thread-2): 06:59:21  Setting query_tag to 'stg_knoema_stock_history'. Will reset to '' after materialization.
+2022-01-27 06:59:21.948542 (Thread-2): 06:59:21  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:21.948635 (Thread-2): 06:59:21  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+    alter session set query_tag = 'stg_knoema_stock_history'
+2022-01-27 06:59:22.071714 (Thread-1): 06:59:22  SQL status: SUCCESS 1 in 0.13 seconds
+2022-01-27 06:59:22.091279 (Thread-1): 06:59:22  Writing runtime SQL for node "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:22.092701 (Thread-2): 06:59:22  SQL status: SUCCESS 1 in 0.14 seconds
+2022-01-27 06:59:22.094362 (Thread-2): 06:59:22  Writing runtime SQL for node "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:22.114835 (Thread-1): 06:59:22  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 06:59:22.115023 (Thread-1): 06:59:22  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+  create or replace  view DEV.dbt_schema_staging.stg_knoema_fx_rates 
+  
+   as (
+    with source as (
+ 
+    select * from knoema_economy_data_atlas.economy.exratescc2018
+ 
+), 
+ 
+renamed as (
+ 
+select 
+ 
+    "Currency" as currency,
+    "Currency Unit" as currency_unit,
+    "Frequency" as frequency,
+    "Date" as exchange_date,
+    "Value" as exchange_value,
+    "Indicator" as indicator,
+    "Indicator Name" as indicator_name,
+    'Knoema.FX Rates' as data_source_name
+ 
+from source 
+ 
+) 
+ 
+select * from renamed
+  );
+2022-01-27 06:59:22.119415 (Thread-2): 06:59:22  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 06:59:22.119559 (Thread-2): 06:59:22  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+  create or replace  view DEV.dbt_schema_staging.stg_knoema_stock_history 
+  
+   as (
+    with source as (
+
+    select * from knoema_economy_data_atlas.economy.usindssp2020
+), 
+
+renamed as (
+
+    select 
+
+        "Company" as company,
+        "Company Name" as company_name,
+        "Company Symbol" as company_symbol,
+        "Stock Exchange" as stock_exchange,
+        "Stock Exchange Name" as stock_exchange_name,
+        "Indicator" as indicator,
+        "Indicator Name" as indicator_name,
+        "Units" as units,
+        "Scale" as scale, 
+        "Frequency" as frequency, 
+        "Date" as stock_date,
+        "Value" as stock_value,
+        'Knoema.Stock History' as data_source_name 
+
+    from source 
+
+) 
+
+select * from renamed
+  );
+2022-01-27 06:59:22.264412 (Thread-2): 06:59:22  Snowflake adapter: Snowflake query id: 01a1e783-0000-15d2-0000-4c45000123e2
+2022-01-27 06:59:22.264580 (Thread-2): 06:59:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 06:59:22.264759 (Thread-2): 06:59:22  finished collecting timing info
+2022-01-27 06:59:22.264899 (Thread-2): 06:59:22  On model.dbt_project.stg_knoema_stock_history: Close
+2022-01-27 06:59:22.268215 (Thread-1): 06:59:22  Snowflake adapter: Snowflake query id: 01a1e783-0000-15c2-0000-4c4500010896
+2022-01-27 06:59:22.268342 (Thread-1): 06:59:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 06:59:22.268493 (Thread-1): 06:59:22  finished collecting timing info
+2022-01-27 06:59:22.268617 (Thread-1): 06:59:22  On model.dbt_project.stg_knoema_fx_rates: Close
+2022-01-27 06:59:22.286639 (Thread-204): handling poll request
+2022-01-27 06:59:22.287008 (Thread-204): 06:59:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546dfd60>]}
+2022-01-27 06:59:22.288060 (Thread-204): sending response (<Response 22622 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 06:59:22.479892 (Thread-2): 06:59:22  Database Error in model stg_knoema_stock_history (models/staging/knoema/stg_knoema_stock_history.sql)
+  002003 (02000): SQL compilation error:
+  Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+  compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:22.480236 (Thread-2): 06:59:22  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2452df04-8aa3-4a57-9d27-20b44fa4ee0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40bc36d130>]}
+2022-01-27 06:59:22.480649 (Thread-2): 06:59:22  2 of 2 ERROR creating view model dbt_schema_staging.stg_knoema_stock_history.... [ERROR in 1.01s]
+2022-01-27 06:59:22.480783 (Thread-2): 06:59:22  Finished running node model.dbt_project.stg_knoema_stock_history
+2022-01-27 06:59:22.486340 (Thread-1): 06:59:22  Database Error in model stg_knoema_fx_rates (models/staging/knoema/stg_knoema_fx_rates.sql)
+  002003 (02000): SQL compilation error:
+  Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+  compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 06:59:22.486584 (Thread-1): 06:59:22  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2452df04-8aa3-4a57-9d27-20b44fa4ee0e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40bc36d700>]}
+2022-01-27 06:59:22.487009 (Thread-1): 06:59:22  1 of 2 ERROR creating view model dbt_schema_staging.stg_knoema_fx_rates......... [ERROR in 1.02s]
+2022-01-27 06:59:22.487161 (Thread-1): 06:59:22  Finished running node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 06:59:22.488567 (MainThread): 06:59:22  Acquiring new snowflake connection "master"
+2022-01-27 06:59:22.488901 (MainThread): 06:59:22  
+2022-01-27 06:59:22.489009 (MainThread): 06:59:22  Finished running 2 view models in 3.61s.
+2022-01-27 06:59:22.489094 (MainThread): 06:59:22  Connection 'master' was properly closed.
+2022-01-27 06:59:22.489162 (MainThread): 06:59:22  Connection 'model.dbt_project.stg_knoema_fx_rates' was properly closed.
+2022-01-27 06:59:22.489226 (MainThread): 06:59:22  Connection 'model.dbt_project.stg_knoema_stock_history' was properly closed.
+2022-01-27 06:59:22.544126 (MainThread): 06:59:22  
+2022-01-27 06:59:22.544387 (MainThread): 06:59:22  Completed with 2 errors and 0 warnings:
+2022-01-27 06:59:22.544481 (MainThread): 06:59:22  
+2022-01-27 06:59:22.544578 (MainThread): 06:59:22  Database Error in model stg_knoema_stock_history (models/staging/knoema/stg_knoema_stock_history.sql)
+2022-01-27 06:59:22.544656 (MainThread): 06:59:22    002003 (02000): SQL compilation error:
+2022-01-27 06:59:22.544727 (MainThread): 06:59:22    Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 06:59:22.544797 (MainThread): 06:59:22    compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:22.544867 (MainThread): 06:59:22  
+2022-01-27 06:59:22.544957 (MainThread): 06:59:22  Database Error in model stg_knoema_fx_rates (models/staging/knoema/stg_knoema_fx_rates.sql)
+2022-01-27 06:59:22.545030 (MainThread): 06:59:22    002003 (02000): SQL compilation error:
+2022-01-27 06:59:22.545096 (MainThread): 06:59:22    Database 'KNOEMA_ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 06:59:22.545161 (MainThread): 06:59:22    compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 06:59:22.545236 (MainThread): 06:59:22  
+2022-01-27 06:59:22.545324 (MainThread): 06:59:22  Done. PASS=0 WARN=0 ERROR=2 SKIP=0 TOTAL=2
+2022-01-27 06:59:23.796491 (Thread-205): handling poll request
+2022-01-27 06:59:23.796915 (Thread-205): 06:59:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545fdb20>]}
+2022-01-27 06:59:23.798094 (Thread-205): sending response (<Response 19734 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 06:59:24.723880 (Thread-206): handling status request
+2022-01-27 06:59:24.724599 (Thread-206): 06:59:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545fdd00>]}
+2022-01-27 06:59:24.725124 (Thread-207): handling status request
+2022-01-27 06:59:24.725737 (Thread-206): sending response (<Response 1658 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:24.726064 (Thread-207): 06:59:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5461c700>]}
+2022-01-27 06:59:24.726789 (Thread-207): sending response (<Response 1680 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 06:59:24.731994 (Thread-208): handling list request
+2022-01-27 06:59:24.732243 (Thread-208): 06:59:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5461c040>]}
+2022-01-27 06:59:24.748296 (Thread-209): handling status request
+2022-01-27 06:59:24.748691 (Thread-209): 06:59:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545fd850>]}
+2022-01-27 06:59:24.758467 (Thread-209): sending response (<Response 1680 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 06:59:24.788157 (Thread-208): 06:59:24  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5461c580>]}
+2022-01-27 06:59:24.788579 (Thread-208): 06:59:24  Found 4 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 06:59:24.791322 (Thread-208): sending response (<Response 2109 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:50.247236 (Thread-210): 06:59:50  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 06:59:50.247718 (Thread-210): 06:59:50  Partial parsing: updated file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:50.252327 (Thread-210): 06:59:50  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:50.775948 (Thread-211): handling status request
+2022-01-27 06:59:50.776406 (Thread-211): 06:59:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5454cee0>]}
+2022-01-27 06:59:50.776908 (Thread-211): sending response (<Response 1436 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:51.067784 (Thread-212): handling status request
+2022-01-27 06:59:51.068237 (Thread-212): 06:59:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54550190>]}
+2022-01-27 06:59:51.068746 (Thread-212): sending response (<Response 1458 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 06:59:51.139801 (Thread-213): handling status request
+2022-01-27 06:59:51.140507 (Thread-213): 06:59:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54550490>]}
+2022-01-27 06:59:51.141059 (Thread-214): handling status request
+2022-01-27 06:59:51.141667 (Thread-213): sending response (<Response 1436 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:51.142000 (Thread-214): 06:59:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54550d00>]}
+2022-01-27 06:59:51.142544 (Thread-214): sending response (<Response 1458 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 06:59:52.502043 (Thread-215): handling status request
+2022-01-27 06:59:52.502461 (Thread-215): 06:59:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54550c40>]}
+2022-01-27 06:59:52.502964 (Thread-215): sending response (<Response 1436 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:53.134028 (Thread-216): handling status request
+2022-01-27 06:59:53.134425 (Thread-216): 06:59:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54550df0>]}
+2022-01-27 06:59:53.134931 (Thread-216): sending response (<Response 1436 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:54.489909 (Thread-217): handling status request
+2022-01-27 06:59:54.490292 (Thread-217): 06:59:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545504c0>]}
+2022-01-27 06:59:54.490787 (Thread-217): sending response (<Response 1436 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:56.314945 (Thread-218): 06:59:56  Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+2022-01-27 06:59:56.315447 (Thread-218): 06:59:56  Partial parsing: updated file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:56.315683 (Thread-218): 06:59:56  Partial parsing: updated file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 06:59:56.319951 (Thread-218): 06:59:56  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 06:59:56.322298 (Thread-218): 06:59:56  1699: static parser successfully parsed staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 06:59:56.809803 (Thread-219): handling status request
+2022-01-27 06:59:56.810229 (Thread-219): 06:59:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459e0d0>]}
+2022-01-27 06:59:56.810779 (Thread-219): sending response (<Response 2088 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:57.116791 (Thread-220): handling status request
+2022-01-27 06:59:57.117197 (Thread-220): 06:59:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459e3d0>]}
+2022-01-27 06:59:57.117701 (Thread-220): sending response (<Response 2110 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 06:59:57.159507 (Thread-221): handling status request
+2022-01-27 06:59:57.159928 (Thread-221): 06:59:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459e640>]}
+2022-01-27 06:59:57.160459 (Thread-221): sending response (<Response 2088 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 06:59:57.211855 (Thread-222): handling status request
+2022-01-27 06:59:57.212247 (Thread-222): 06:59:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459e8b0>]}
+2022-01-27 06:59:57.212751 (Thread-222): sending response (<Response 2110 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 07:00:02.975102 (Thread-223): 07:00:02  Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+2022-01-27 07:00:02.975657 (Thread-223): 07:00:02  Partial parsing: deleted source source.dbt_project.knoema_economy_data_atlas.exratescc2018
+2022-01-27 07:00:02.975866 (Thread-223): 07:00:02  Partial parsing: deleted source source.dbt_project.knoema_economy_data_atlas.usindssp2020
+2022-01-27 07:00:02.976000 (Thread-223): 07:00:02  Partial parsing: update schema file: dbt_project://models/staging/knoema/knoema_sources.yml
+2022-01-27 07:00:02.976176 (Thread-223): 07:00:02  Partial parsing: updated file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:00:02.976333 (Thread-223): 07:00:02  Partial parsing: updated file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:00:02.980361 (Thread-223): 07:00:02  1699: static parser successfully parsed staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:00:02.982722 (Thread-223): 07:00:02  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:00:03.025862 (Thread-223): 07:00:03  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 07:00:03.033959 (Thread-223): 07:00:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54542580>]}
+2022-01-27 07:00:03.898328 (Thread-224): handling status request
+2022-01-27 07:00:03.898730 (Thread-224): 07:00:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5454c1f0>]}
+2022-01-27 07:00:03.899315 (Thread-224): sending response (<Response 3689 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:00:04.043256 (Thread-225): handling status request
+2022-01-27 07:00:04.043664 (Thread-225): 07:00:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54540490>]}
+2022-01-27 07:00:04.044212 (Thread-225): sending response (<Response 3689 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:00:15.133451 (Thread-226): handling status request
+2022-01-27 07:00:15.133878 (Thread-226): 07:00:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54540dc0>]}
+2022-01-27 07:00:15.134466 (Thread-226): sending response (<Response 3689 bytes [200 OK]>) to 10.0.5.67

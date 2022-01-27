@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{source('knoema_economy_data_atlas','usindssp2020')}}
+    select * from {{source('economy_data_atlas','usindssp2020')}}
 ), 
 
 renamed as (
