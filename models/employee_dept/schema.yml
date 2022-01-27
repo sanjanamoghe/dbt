@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: employee_dept
+    database: dev
+    schema: dbt_schema
+    tables:
+      - name: employee
+      - name: departments
