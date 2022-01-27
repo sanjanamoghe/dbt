@@ -1,9 +1,9 @@
-with emp_source as (
+with source as (
 
     select * from {{source('dbt_schema','employee')}}
 )
 
-select * from emp_source;
+select * from source;
 
 -- emp_info as (
 --     select emp_id,emp_name,dept_id

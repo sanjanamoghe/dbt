@@ -2807,3 +2807,42 @@ There are 1 unused configuration paths:
 2022-01-27 07:27:50.026084 (Thread-301): handling status request
 2022-01-27 07:27:50.026489 (Thread-301): 07:27:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54381eb0>]}
 2022-01-27 07:27:50.026983 (Thread-301): sending response (<Response 1402 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:27:51.955824 (Thread-302): 07:27:51  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:27:51.956224 (Thread-302): 07:27:51  Partial parsing: updated file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:27:51.960238 (Thread-302): 07:27:51  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:27:53.127671 (Thread-303): handling status request
+2022-01-27 07:27:53.128111 (Thread-303): 07:27:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5430ab80>]}
+2022-01-27 07:27:53.128652 (Thread-303): sending response (<Response 1402 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 07:27:53.136189 (Thread-304): handling status request
+2022-01-27 07:27:53.136451 (Thread-304): 07:27:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5430ae80>]}
+2022-01-27 07:27:53.160717 (Thread-304): sending response (<Response 1402 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:28:00.000566 (Thread-305): handling status request
+2022-01-27 07:28:00.000976 (Thread-305): 07:28:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54335610>]}
+2022-01-27 07:28:00.001492 (Thread-305): sending response (<Response 1402 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 07:28:00.478604 (Thread-306): handling status request
+2022-01-27 07:28:00.479012 (Thread-306): 07:28:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a543356a0>]}
+2022-01-27 07:28:00.479549 (Thread-306): sending response (<Response 1402 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:28:00.507135 (Thread-307): handling cli_args request
+2022-01-27 07:28:00.507417 (Thread-307): 07:28:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54335310>]}
+2022-01-27 07:28:00.507812 (Thread-307): sending response (<Response 833 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:28:41.784773 (Thread-308): 07:28:41  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:28:41.785178 (Thread-308): 07:28:41  Partial parsing: updated file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:28:41.789249 (Thread-308): 07:28:41  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:28:42.642183 (Thread-309): handling status request
+2022-01-27 07:28:42.642600 (Thread-309): 07:28:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54371c70>]}
+2022-01-27 07:28:42.643114 (Thread-309): sending response (<Response 1402 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:28:42.661105 (Thread-310): handling status request
+2022-01-27 07:28:42.661376 (Thread-310): 07:28:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54371f70>]}
+2022-01-27 07:28:42.661783 (Thread-310): sending response (<Response 1402 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 07:29:56.141609 (Thread-311): 07:29:56  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:29:56.143192 (Thread-311): 07:29:56  Partial parsing: updated file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:29:56.148694 (Thread-311): 07:29:56  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:29:56.965041 (Thread-312): handling status request
+2022-01-27 07:29:56.965462 (Thread-312): 07:29:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545ce070>]}
+2022-01-27 07:29:56.965991 (Thread-312): sending response (<Response 1402 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 07:29:57.028479 (Thread-313): handling status request
+2022-01-27 07:29:57.028910 (Thread-313): 07:29:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545cea90>]}
+2022-01-27 07:29:57.029431 (Thread-313): sending response (<Response 1402 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:30:00.495299 (Thread-314): handling status request
+2022-01-27 07:30:00.495696 (Thread-314): 07:30:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5443a760>]}
+2022-01-27 07:30:00.496182 (Thread-314): sending response (<Response 1402 bytes [200 OK]>) to 10.0.33.234
