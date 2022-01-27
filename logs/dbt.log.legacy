@@ -2293,3 +2293,462 @@ There are 1 unused configuration paths:
 2022-01-27 07:00:15.133451 (Thread-226): handling status request
 2022-01-27 07:00:15.133878 (Thread-226): 07:00:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54540dc0>]}
 2022-01-27 07:00:15.134466 (Thread-226): sending response (<Response 3689 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:00:17.249840 (Thread-227): 07:00:17  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 07:00:17.250089 (Thread-227): 07:00:17  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 07:00:17.250505 (Thread-227): 07:00:17  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 07:00:17.256026 (Thread-227): 07:00:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544f1190>]}
+2022-01-27 07:00:18.082470 (Thread-228): handling status request
+2022-01-27 07:00:18.082854 (Thread-228): 07:00:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54678a30>]}
+2022-01-27 07:00:18.083434 (Thread-228): sending response (<Response 1680 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:00:18.091611 (Thread-229): handling status request
+2022-01-27 07:00:18.091906 (Thread-229): 07:00:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54678e50>]}
+2022-01-27 07:00:18.092381 (Thread-229): sending response (<Response 1680 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:00:20.401210 (Thread-230): handling status request
+2022-01-27 07:00:20.401657 (Thread-230): 07:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546787c0>]}
+2022-01-27 07:00:20.402218 (Thread-230): sending response (<Response 1680 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:00:20.825114 (Thread-231): handling status request
+2022-01-27 07:00:20.825505 (Thread-231): 07:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54562820>]}
+2022-01-27 07:00:20.826001 (Thread-231): sending response (<Response 1680 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:00:20.959069 (Thread-232): handling cli_args request
+2022-01-27 07:00:20.959492 (Thread-232): 07:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54567970>]}
+2022-01-27 07:00:23.195877 (Thread-232): sending response (<Response 138 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 07:00:23.293878 (MainThread): 07:00:23  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 07:00:23.294444 (MainThread): 07:00:23  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 07:00:23.295069 (MainThread): 07:00:23  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 07:00:23.300895 (MainThread): 07:00:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '17c1a677-346a-4256-8751-1691a962ed1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29c2766d0>]}
+2022-01-27 07:00:23.333732 (MainThread): 07:00:23  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '17c1a677-346a-4256-8751-1691a962ed1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29c2dcbe0>]}
+2022-01-27 07:00:23.334067 (MainThread): 07:00:23  Found 4 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:00:23.335375 (MainThread): 07:00:23  
+2022-01-27 07:00:23.335741 (MainThread): 07:00:23  Acquiring new snowflake connection "master"
+2022-01-27 07:00:23.336874 (ThreadPoolExecutor-0_0): 07:00:23  Acquiring new snowflake connection "list_DEV"
+2022-01-27 07:00:23.349945 (ThreadPoolExecutor-0_0): 07:00:23  Using snowflake connection "list_DEV"
+2022-01-27 07:00:23.350085 (ThreadPoolExecutor-0_0): 07:00:23  On list_DEV: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV"} */
+
+    show terse schemas in database DEV
+    limit 10000
+2022-01-27 07:00:23.350174 (ThreadPoolExecutor-0_0): 07:00:23  Opening a new connection, currently in state init
+2022-01-27 07:00:23.704550 (Thread-233): handling poll request
+2022-01-27 07:00:23.705056 (Thread-233): 07:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5454c1f0>]}
+2022-01-27 07:00:23.706019 (Thread-233): sending response (<Response 4564 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:00:24.040235 (ThreadPoolExecutor-0_0): 07:00:24  SQL status: SUCCESS 6 in 0.69 seconds
+2022-01-27 07:00:24.042334 (ThreadPoolExecutor-0_0): 07:00:24  On list_DEV: Close
+2022-01-27 07:00:24.270485 (ThreadPoolExecutor-2_0): 07:00:24  Acquiring new snowflake connection "list_DEV_dbt_schema_staging"
+2022-01-27 07:00:24.272854 (ThreadPoolExecutor-2_1): 07:00:24  Acquiring new snowflake connection "list_DEV_dbt_schema_example"
+2022-01-27 07:00:24.279917 (ThreadPoolExecutor-2_1): 07:00:24  Using snowflake connection "list_DEV_dbt_schema_example"
+2022-01-27 07:00:24.280071 (ThreadPoolExecutor-2_1): 07:00:24  On list_DEV_dbt_schema_example: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV_dbt_schema_example"} */
+
+    show terse objects in DEV.dbt_schema_example
+2022-01-27 07:00:24.280186 (ThreadPoolExecutor-2_1): 07:00:24  Opening a new connection, currently in state init
+2022-01-27 07:00:24.284038 (ThreadPoolExecutor-2_0): 07:00:24  Using snowflake connection "list_DEV_dbt_schema_staging"
+2022-01-27 07:00:24.284171 (ThreadPoolExecutor-2_0): 07:00:24  On list_DEV_dbt_schema_staging: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "connection_name": "list_DEV_dbt_schema_staging"} */
+
+    show terse objects in DEV.dbt_schema_staging
+2022-01-27 07:00:24.284256 (ThreadPoolExecutor-2_0): 07:00:24  Opening a new connection, currently in state closed
+2022-01-27 07:00:24.825641 (ThreadPoolExecutor-2_1): 07:00:24  SQL status: SUCCESS 2 in 0.55 seconds
+2022-01-27 07:00:24.827867 (ThreadPoolExecutor-2_1): 07:00:24  On list_DEV_dbt_schema_example: Close
+2022-01-27 07:00:25.013689 (ThreadPoolExecutor-2_0): 07:00:25  SQL status: SUCCESS 0 in 0.73 seconds
+2022-01-27 07:00:25.015691 (ThreadPoolExecutor-2_0): 07:00:25  On list_DEV_dbt_schema_staging: Close
+2022-01-27 07:00:25.199229 (Thread-234): handling poll request
+2022-01-27 07:00:25.199621 (Thread-234): 07:00:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545ba700>]}
+2022-01-27 07:00:25.200276 (Thread-234): sending response (<Response 4945 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 07:00:25.239556 (MainThread): 07:00:25  Concurrency: 4 threads (target='dbt_tab')
+2022-01-27 07:00:25.239751 (MainThread): 07:00:25  
+2022-01-27 07:00:25.242523 (Thread-1): 07:00:25  Began running node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 07:00:25.242864 (Thread-1): 07:00:25  1 of 2 START view model dbt_schema_staging.stg_knoema_fx_rates.................. [RUN]
+2022-01-27 07:00:25.243193 (Thread-1): 07:00:25  Acquiring new snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.243306 (Thread-1): 07:00:25  Began compiling node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 07:00:25.243431 (Thread-1): 07:00:25  Compiling model.dbt_project.stg_knoema_fx_rates
+2022-01-27 07:00:25.244357 (Thread-2): 07:00:25  Began running node model.dbt_project.stg_knoema_stock_history
+2022-01-27 07:00:25.244606 (Thread-2): 07:00:25  2 of 2 START view model dbt_schema_staging.stg_knoema_stock_history............. [RUN]
+2022-01-27 07:00:25.244855 (Thread-2): 07:00:25  Acquiring new snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.244963 (Thread-2): 07:00:25  Began compiling node model.dbt_project.stg_knoema_stock_history
+2022-01-27 07:00:25.245049 (Thread-2): 07:00:25  Compiling model.dbt_project.stg_knoema_stock_history
+2022-01-27 07:00:25.247502 (Thread-2): 07:00:25  Writing injected SQL for node "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.249736 (Thread-1): 07:00:25  Writing injected SQL for node "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.263182 (Thread-2): 07:00:25  finished collecting timing info
+2022-01-27 07:00:25.263388 (Thread-2): 07:00:25  Began executing node model.dbt_project.stg_knoema_stock_history
+2022-01-27 07:00:25.268498 (Thread-1): 07:00:25  finished collecting timing info
+2022-01-27 07:00:25.268648 (Thread-1): 07:00:25  Began executing node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 07:00:25.274819 (Thread-1): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.274948 (Thread-1): 07:00:25  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+    show parameters like 'query_tag' in session
+2022-01-27 07:00:25.275037 (Thread-1): 07:00:25  Opening a new connection, currently in state closed
+2022-01-27 07:00:25.278381 (Thread-2): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.278491 (Thread-2): 07:00:25  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+    show parameters like 'query_tag' in session
+2022-01-27 07:00:25.278573 (Thread-2): 07:00:25  Opening a new connection, currently in state closed
+2022-01-27 07:00:25.724856 (Thread-1): 07:00:25  SQL status: SUCCESS 1 in 0.45 seconds
+2022-01-27 07:00:25.726132 (Thread-1): 07:00:25  Setting query_tag to 'stg_knoema_fx_rates'. Will reset to '' after materialization.
+2022-01-27 07:00:25.726660 (Thread-1): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.726758 (Thread-1): 07:00:25  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+    alter session set query_tag = 'stg_knoema_fx_rates'
+2022-01-27 07:00:25.728728 (Thread-2): 07:00:25  SQL status: SUCCESS 1 in 0.45 seconds
+2022-01-27 07:00:25.729773 (Thread-2): 07:00:25  Setting query_tag to 'stg_knoema_stock_history'. Will reset to '' after materialization.
+2022-01-27 07:00:25.730218 (Thread-2): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.730311 (Thread-2): 07:00:25  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+    alter session set query_tag = 'stg_knoema_stock_history'
+2022-01-27 07:00:25.863890 (Thread-1): 07:00:25  SQL status: SUCCESS 1 in 0.14 seconds
+2022-01-27 07:00:25.884273 (Thread-1): 07:00:25  Writing runtime SQL for node "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.885126 (Thread-2): 07:00:25  SQL status: SUCCESS 1 in 0.15 seconds
+2022-01-27 07:00:25.886816 (Thread-2): 07:00:25  Writing runtime SQL for node "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.897720 (Thread-1): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_fx_rates"
+2022-01-27 07:00:25.897854 (Thread-1): 07:00:25  On model.dbt_project.stg_knoema_fx_rates: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_fx_rates"} */
+
+  create or replace  view DEV.dbt_schema_staging.stg_knoema_fx_rates 
+  
+   as (
+    with source as (
+ 
+    select * from economy_data_atlas.economy.exratescc2018
+ 
+), 
+ 
+renamed as (
+ 
+select 
+ 
+    "Currency" as currency,
+    "Currency Unit" as currency_unit,
+    "Frequency" as frequency,
+    "Date" as exchange_date,
+    "Value" as exchange_value,
+    "Indicator" as indicator,
+    "Indicator Name" as indicator_name,
+    'Knoema.FX Rates' as data_source_name
+ 
+from source 
+ 
+) 
+ 
+select * from renamed
+  );
+2022-01-27 07:00:25.901406 (Thread-2): 07:00:25  Using snowflake connection "model.dbt_project.stg_knoema_stock_history"
+2022-01-27 07:00:25.901529 (Thread-2): 07:00:25  On model.dbt_project.stg_knoema_stock_history: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "dbt_tab", "node_id": "model.dbt_project.stg_knoema_stock_history"} */
+
+  create or replace  view DEV.dbt_schema_staging.stg_knoema_stock_history 
+  
+   as (
+    with source as (
+
+    select * from economy_data_atlas.economy.usindssp2020
+), 
+
+renamed as (
+
+    select 
+
+        "Company" as company,
+        "Company Name" as company_name,
+        "Company Symbol" as company_symbol,
+        "Stock Exchange" as stock_exchange,
+        "Stock Exchange Name" as stock_exchange_name,
+        "Indicator" as indicator,
+        "Indicator Name" as indicator_name,
+        "Units" as units,
+        "Scale" as scale, 
+        "Frequency" as frequency, 
+        "Date" as stock_date,
+        "Value" as stock_value,
+        'Knoema.Stock History' as data_source_name 
+
+    from source 
+
+) 
+
+select * from renamed
+  );
+2022-01-27 07:00:26.044410 (Thread-2): 07:00:26  Snowflake adapter: Snowflake query id: 01a1e784-0000-15d2-0000-4c45000123f2
+2022-01-27 07:00:26.044580 (Thread-2): 07:00:26  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 07:00:26.044771 (Thread-2): 07:00:26  finished collecting timing info
+2022-01-27 07:00:26.044937 (Thread-2): 07:00:26  On model.dbt_project.stg_knoema_stock_history: Close
+2022-01-27 07:00:26.046074 (Thread-1): 07:00:26  Snowflake adapter: Snowflake query id: 01a1e784-0000-15d2-0000-4c45000123ee
+2022-01-27 07:00:26.046199 (Thread-1): 07:00:26  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 07:00:26.046353 (Thread-1): 07:00:26  finished collecting timing info
+2022-01-27 07:00:26.046478 (Thread-1): 07:00:26  On model.dbt_project.stg_knoema_fx_rates: Close
+2022-01-27 07:00:26.260835 (Thread-1): 07:00:26  Database Error in model stg_knoema_fx_rates (models/staging/knoema/stg_knoema_fx_rates.sql)
+  002003 (02000): SQL compilation error:
+  Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+  compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:00:26.261163 (Thread-1): 07:00:26  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '17c1a677-346a-4256-8751-1691a962ed1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff2946a4790>]}
+2022-01-27 07:00:26.261668 (Thread-1): 07:00:26  1 of 2 ERROR creating view model dbt_schema_staging.stg_knoema_fx_rates......... [ERROR in 1.02s]
+2022-01-27 07:00:26.261805 (Thread-1): 07:00:26  Finished running node model.dbt_project.stg_knoema_fx_rates
+2022-01-27 07:00:26.266950 (Thread-2): 07:00:26  Database Error in model stg_knoema_stock_history (models/staging/knoema/stg_knoema_stock_history.sql)
+  002003 (02000): SQL compilation error:
+  Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+  compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:00:26.267222 (Thread-2): 07:00:26  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '17c1a677-346a-4256-8751-1691a962ed1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff296759f10>]}
+2022-01-27 07:00:26.267556 (Thread-2): 07:00:26  2 of 2 ERROR creating view model dbt_schema_staging.stg_knoema_stock_history.... [ERROR in 1.02s]
+2022-01-27 07:00:26.267671 (Thread-2): 07:00:26  Finished running node model.dbt_project.stg_knoema_stock_history
+2022-01-27 07:00:26.269275 (MainThread): 07:00:26  Acquiring new snowflake connection "master"
+2022-01-27 07:00:26.269618 (MainThread): 07:00:26  
+2022-01-27 07:00:26.269728 (MainThread): 07:00:26  Finished running 2 view models in 2.93s.
+2022-01-27 07:00:26.269820 (MainThread): 07:00:26  Connection 'master' was properly closed.
+2022-01-27 07:00:26.269888 (MainThread): 07:00:26  Connection 'model.dbt_project.stg_knoema_fx_rates' was properly closed.
+2022-01-27 07:00:26.269953 (MainThread): 07:00:26  Connection 'model.dbt_project.stg_knoema_stock_history' was properly closed.
+2022-01-27 07:00:26.319293 (MainThread): 07:00:26  
+2022-01-27 07:00:26.319558 (MainThread): 07:00:26  Completed with 2 errors and 0 warnings:
+2022-01-27 07:00:26.319660 (MainThread): 07:00:26  
+2022-01-27 07:00:26.319759 (MainThread): 07:00:26  Database Error in model stg_knoema_fx_rates (models/staging/knoema/stg_knoema_fx_rates.sql)
+2022-01-27 07:00:26.319838 (MainThread): 07:00:26    002003 (02000): SQL compilation error:
+2022-01-27 07:00:26.319907 (MainThread): 07:00:26    Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 07:00:26.319973 (MainThread): 07:00:26    compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:00:26.320044 (MainThread): 07:00:26  
+2022-01-27 07:00:26.320120 (MainThread): 07:00:26  Database Error in model stg_knoema_stock_history (models/staging/knoema/stg_knoema_stock_history.sql)
+2022-01-27 07:00:26.320188 (MainThread): 07:00:26    002003 (02000): SQL compilation error:
+2022-01-27 07:00:26.320251 (MainThread): 07:00:26    Database 'ECONOMY_DATA_ATLAS' does not exist or not authorized.
+2022-01-27 07:00:26.320314 (MainThread): 07:00:26    compiled SQL at target/run/dbt_project/models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:00:26.320387 (MainThread): 07:00:26  
+2022-01-27 07:00:26.320472 (MainThread): 07:00:26  Done. PASS=0 WARN=0 ERROR=2 SKIP=0 TOTAL=2
+2022-01-27 07:00:26.698982 (Thread-235): handling poll request
+2022-01-27 07:00:26.699426 (Thread-235): 07:00:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5453afd0>]}
+2022-01-27 07:00:26.701464 (Thread-235): sending response (<Response 40728 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:00:27.678424 (Thread-236): handling status request
+2022-01-27 07:00:27.678856 (Thread-236): 07:00:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54540dc0>]}
+2022-01-27 07:00:27.679431 (Thread-236): sending response (<Response 1680 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 07:00:27.766841 (Thread-237): handling status request
+2022-01-27 07:00:27.767316 (Thread-237): 07:00:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546784f0>]}
+2022-01-27 07:00:27.767829 (Thread-237): sending response (<Response 1680 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:11:29.954740 (Thread-238): 07:11:29  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:11:29.956533 (Thread-238): 07:11:29  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:11:29.956753 (Thread-238): 07:11:29  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:11:29.956895 (Thread-238): 07:11:29  Partial parsing: update schema file: dbt_project://models/staging/knoema/knoema_sources.yml
+2022-01-27 07:11:29.962083 (Thread-238): 07:11:29  1699: static parser successfully parsed staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:11:29.964494 (Thread-238): 07:11:29  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:11:30.808742 (Thread-239): handling status request
+2022-01-27 07:11:30.809148 (Thread-239): 07:11:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54482190>]}
+2022-01-27 07:11:30.809705 (Thread-239): sending response (<Response 2404 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 07:11:30.850908 (Thread-240): handling status request
+2022-01-27 07:11:30.851321 (Thread-240): 07:11:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5443af10>]}
+2022-01-27 07:11:30.875333 (Thread-240): sending response (<Response 2404 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:11:42.624194 (Thread-241): 07:11:42  Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+2022-01-27 07:11:42.624604 (Thread-241): 07:11:42  Partial parsing: added file: dbt_project://models/staging/knoema/sources.yml
+2022-01-27 07:11:42.624868 (Thread-241): 07:11:42  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:11:42.625054 (Thread-241): 07:11:42  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:11:42.629728 (Thread-241): 07:11:42  1699: static parser successfully parsed staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:11:42.632066 (Thread-241): 07:11:42  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:11:43.436759 (Thread-242): handling status request
+2022-01-27 07:11:43.437169 (Thread-242): 07:11:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5437ccd0>]}
+2022-01-27 07:11:43.437703 (Thread-242): sending response (<Response 2389 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:11:43.504005 (Thread-243): handling status request
+2022-01-27 07:11:43.504398 (Thread-243): 07:11:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544824f0>]}
+2022-01-27 07:11:43.504947 (Thread-243): sending response (<Response 2389 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:11:47.926486 (Thread-244): 07:11:47  Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+2022-01-27 07:11:47.926892 (Thread-244): 07:11:47  Partial parsing: added file: dbt_project://models/staging/knoema/sources.yml
+2022-01-27 07:11:47.927171 (Thread-244): 07:11:47  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:11:47.927369 (Thread-244): 07:11:47  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:11:47.932159 (Thread-244): 07:11:47  1699: static parser successfully parsed staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:11:47.934322 (Thread-244): 07:11:47  1699: static parser successfully parsed staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:11:48.802319 (Thread-245): handling status request
+2022-01-27 07:11:48.802714 (Thread-245): 07:11:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3acc1a7430>]}
+2022-01-27 07:11:48.803254 (Thread-245): sending response (<Response 2389 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 07:11:48.808069 (Thread-246): handling status request
+2022-01-27 07:11:48.808317 (Thread-246): 07:11:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5431df40>]}
+2022-01-27 07:11:48.808692 (Thread-246): sending response (<Response 2389 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:12:05.823995 (Thread-247): 07:12:05  Partial parsing enabled: 3 files deleted, 3 files added, 0 files changed.
+2022-01-27 07:12:05.824362 (Thread-247): 07:12:05  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:05.824537 (Thread-247): 07:12:05  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:05.824740 (Thread-247): 07:12:05  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:05.824882 (Thread-247): 07:12:05  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:05.824982 (Thread-247): 07:12:05  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:05.825095 (Thread-247): 07:12:05  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:05.825189 (Thread-247): 07:12:05  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:05.988322 (Thread-247): 07:12:05  1699: static parser successfully parsed staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:05.990619 (Thread-247): 07:12:05  1699: static parser successfully parsed staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:06.653807 (Thread-248): handling status request
+2022-01-27 07:12:06.654227 (Thread-248): 07:12:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a543233d0>]}
+2022-01-27 07:12:06.654826 (Thread-248): sending response (<Response 3791 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 07:12:06.712949 (Thread-249): handling status request
+2022-01-27 07:12:06.713342 (Thread-249): 07:12:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a543239d0>]}
+2022-01-27 07:12:06.713884 (Thread-249): sending response (<Response 3791 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:12:22.307118 (Thread-250): 07:12:22  Partial parsing enabled: 3 files deleted, 3 files added, 0 files changed.
+2022-01-27 07:12:22.307490 (Thread-250): 07:12:22  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:22.307669 (Thread-250): 07:12:22  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:22.307863 (Thread-250): 07:12:22  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:22.308005 (Thread-250): 07:12:22  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:22.308106 (Thread-250): 07:12:22  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:22.308216 (Thread-250): 07:12:22  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:22.308310 (Thread-250): 07:12:22  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:22.312294 (Thread-250): 07:12:22  1699: static parser successfully parsed staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:22.314438 (Thread-250): 07:12:22  1699: static parser successfully parsed staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:22.935971 (Thread-251): handling status request
+2022-01-27 07:12:22.936371 (Thread-251): 07:12:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544b6ca0>]}
+2022-01-27 07:12:22.936930 (Thread-251): sending response (<Response 3769 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:23.246694 (Thread-252): handling status request
+2022-01-27 07:12:23.247113 (Thread-252): 07:12:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544b62b0>]}
+2022-01-27 07:12:23.247696 (Thread-252): sending response (<Response 3791 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:12:23.356851 (Thread-253): handling status request
+2022-01-27 07:12:23.357277 (Thread-253): 07:12:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544b6fd0>]}
+2022-01-27 07:12:23.357816 (Thread-253): sending response (<Response 3791 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:12:24.307894 (Thread-254): handling status request
+2022-01-27 07:12:24.308313 (Thread-254): 07:12:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54568a90>]}
+2022-01-27 07:12:24.308880 (Thread-254): sending response (<Response 3769 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:26.676411 (Thread-255): handling status request
+2022-01-27 07:12:26.676812 (Thread-255): 07:12:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54568f70>]}
+2022-01-27 07:12:26.677376 (Thread-255): sending response (<Response 3769 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:29.667642 (Thread-256): 07:12:29  Partial parsing enabled: 3 files deleted, 4 files added, 0 files changed.
+2022-01-27 07:12:29.668017 (Thread-256): 07:12:29  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:29.668199 (Thread-256): 07:12:29  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:29.668391 (Thread-256): 07:12:29  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:29.668549 (Thread-256): 07:12:29  Partial parsing: added file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:29.668692 (Thread-256): 07:12:29  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:29.668794 (Thread-256): 07:12:29  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:29.668902 (Thread-256): 07:12:29  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:29.668993 (Thread-256): 07:12:29  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:29.673052 (Thread-256): 07:12:29  1699: static parser successfully parsed staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:29.675232 (Thread-256): 07:12:29  1699: static parser successfully parsed staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:29.677122 (Thread-256): 07:12:29  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:30.439161 (Thread-257): handling status request
+2022-01-27 07:12:30.439548 (Thread-257): 07:12:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545ba7f0>]}
+2022-01-27 07:12:30.440116 (Thread-257): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:30.458005 (Thread-258): handling status request
+2022-01-27 07:12:30.458276 (Thread-258): 07:12:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544586d0>]}
+2022-01-27 07:12:30.458756 (Thread-258): sending response (<Response 4441 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:12:30.593085 (Thread-259): handling status request
+2022-01-27 07:12:30.593475 (Thread-259): 07:12:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54458460>]}
+2022-01-27 07:12:30.594048 (Thread-259): sending response (<Response 4441 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:12:31.103544 (Thread-260): handling status request
+2022-01-27 07:12:31.103944 (Thread-260): 07:12:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c046fd0>]}
+2022-01-27 07:12:31.104521 (Thread-260): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:32.461157 (Thread-261): handling status request
+2022-01-27 07:12:32.461580 (Thread-261): 07:12:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c0469a0>]}
+2022-01-27 07:12:32.462159 (Thread-261): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:32.608479 (Thread-262): 07:12:32  Partial parsing enabled: 3 files deleted, 4 files added, 0 files changed.
+2022-01-27 07:12:32.608880 (Thread-262): 07:12:32  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:32.609065 (Thread-262): 07:12:32  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:32.609263 (Thread-262): 07:12:32  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:32.609420 (Thread-262): 07:12:32  Partial parsing: added file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:32.609562 (Thread-262): 07:12:32  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:32.609662 (Thread-262): 07:12:32  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:32.609774 (Thread-262): 07:12:32  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:32.610119 (Thread-262): 07:12:32  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:32.614414 (Thread-262): 07:12:32  1699: static parser successfully parsed staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:32.616701 (Thread-262): 07:12:32  1699: static parser successfully parsed staging/employee_dept/stg_knoema_fx_rates.sql
+2022-01-27 07:12:32.618741 (Thread-262): 07:12:32  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:33.133692 (Thread-263): handling status request
+2022-01-27 07:12:33.134107 (Thread-263): 07:12:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5478a760>]}
+2022-01-27 07:12:33.134724 (Thread-263): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:33.401887 (Thread-264): handling status request
+2022-01-27 07:12:33.402290 (Thread-264): 07:12:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545fba60>]}
+2022-01-27 07:12:33.402856 (Thread-264): sending response (<Response 4441 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 07:12:33.487174 (Thread-265): handling status request
+2022-01-27 07:12:33.487590 (Thread-265): 07:12:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3acc083dc0>]}
+2022-01-27 07:12:33.488139 (Thread-265): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:33.499635 (Thread-266): handling status request
+2022-01-27 07:12:33.499927 (Thread-266): 07:12:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5445a1c0>]}
+2022-01-27 07:12:33.500455 (Thread-266): sending response (<Response 4441 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:12:34.846379 (Thread-267): handling status request
+2022-01-27 07:12:34.846831 (Thread-267): 07:12:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546321c0>]}
+2022-01-27 07:12:34.847550 (Thread-267): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:37.211940 (Thread-268): handling status request
+2022-01-27 07:12:37.212332 (Thread-268): 07:12:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5445a940>]}
+2022-01-27 07:12:37.212923 (Thread-268): sending response (<Response 4419 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:40.101275 (Thread-269): 07:12:40  Partial parsing enabled: 3 files deleted, 3 files added, 0 files changed.
+2022-01-27 07:12:40.101648 (Thread-269): 07:12:40  Partial parsing: added file: dbt_project://models/staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:40.101858 (Thread-269): 07:12:40  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:40.102019 (Thread-269): 07:12:40  Partial parsing: added file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:40.102161 (Thread-269): 07:12:40  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:40.102262 (Thread-269): 07:12:40  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:40.102371 (Thread-269): 07:12:40  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:40.102464 (Thread-269): 07:12:40  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:40.106660 (Thread-269): 07:12:40  1699: static parser successfully parsed staging/employee_dept/stg_knoema_stock_history.sql
+2022-01-27 07:12:40.108834 (Thread-269): 07:12:40  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:40.891462 (Thread-270): handling status request
+2022-01-27 07:12:40.891864 (Thread-270): 07:12:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a545689d0>]}
+2022-01-27 07:12:40.892434 (Thread-270): sending response (<Response 3755 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:40.925303 (Thread-271): handling status request
+2022-01-27 07:12:40.925674 (Thread-271): 07:12:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54568940>]}
+2022-01-27 07:12:40.926222 (Thread-271): sending response (<Response 3777 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 07:12:40.964218 (Thread-272): handling status request
+2022-01-27 07:12:40.964620 (Thread-272): 07:12:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c153df0>]}
+2022-01-27 07:12:40.965172 (Thread-272): sending response (<Response 3777 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:12:42.253324 (Thread-273): handling status request
+2022-01-27 07:12:42.253759 (Thread-273): 07:12:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54482ac0>]}
+2022-01-27 07:12:42.254371 (Thread-273): sending response (<Response 3755 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:44.614848 (Thread-274): handling status request
+2022-01-27 07:12:44.615351 (Thread-274): 07:12:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a544828b0>]}
+2022-01-27 07:12:44.615929 (Thread-274): sending response (<Response 3755 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:45.883000 (Thread-275): 07:12:45  Partial parsing enabled: 3 files deleted, 2 files added, 0 files changed.
+2022-01-27 07:12:45.883469 (Thread-275): 07:12:45  Partial parsing: added file: dbt_project://models/staging/employee_dept/sources.yml
+2022-01-27 07:12:45.883665 (Thread-275): 07:12:45  Partial parsing: added file: dbt_project://models/staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:45.883816 (Thread-275): 07:12:45  Partial parsing: deleted source source.dbt_project.economy_data_atlas.exratescc2018
+2022-01-27 07:12:45.883920 (Thread-275): 07:12:45  Partial parsing: deleted source source.dbt_project.economy_data_atlas.usindssp2020
+2022-01-27 07:12:45.884033 (Thread-275): 07:12:45  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_stock_history.sql
+2022-01-27 07:12:45.884129 (Thread-275): 07:12:45  Partial parsing: deleted file: dbt_project://models/staging/knoema/stg_knoema_fx_rates.sql
+2022-01-27 07:12:45.888366 (Thread-275): 07:12:45  1699: static parser successfully parsed staging/employee_dept/get_emp_info.sql
+2022-01-27 07:12:45.930834 (Thread-275): 07:12:45  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.marts
+
+2022-01-27 07:12:45.936080 (Thread-275): 07:12:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54387580>]}
+2022-01-27 07:12:46.699435 (Thread-276): handling status request
+2022-01-27 07:12:46.699822 (Thread-276): 07:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c2a35b0>]}
+2022-01-27 07:12:46.700388 (Thread-276): sending response (<Response 3650 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:46.716626 (Thread-277): handling list request
+2022-01-27 07:12:46.716921 (Thread-277): 07:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c2a3e50>]}
+2022-01-27 07:12:46.724494 (Thread-278): handling status request
+2022-01-27 07:12:46.724773 (Thread-278): 07:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c1b3f10>]}
+2022-01-27 07:12:46.740035 (Thread-278): sending response (<Response 3672 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:12:46.741366 (Thread-279): handling status request
+2022-01-27 07:12:46.742044 (Thread-279): 07:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5461c250>]}
+2022-01-27 07:12:46.742856 (Thread-279): sending response (<Response 3672 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:12:47.487416 (Thread-277): 07:12:47  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c1b3a00>]}
+2022-01-27 07:12:47.487810 (Thread-277): 07:12:47  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:12:47.488858 (Thread-277): 07:12:47  The selection criterion '+models/staging/employee_dept/get_emp_info.sql+' does not match any nodes
+2022-01-27 07:12:47.489026 (Thread-277): 07:12:47  No nodes selected!
+2022-01-27 07:12:47.490704 (Thread-277): sending response (<Response 2927 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:49.248008 (Thread-280): handling status request
+2022-01-27 07:12:49.248394 (Thread-280): 07:12:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c2068b0>]}
+2022-01-27 07:12:49.248942 (Thread-280): sending response (<Response 3650 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:49.254790 (Thread-281): handling list request
+2022-01-27 07:12:49.255101 (Thread-281): 07:12:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c192d60>]}
+2022-01-27 07:12:49.284996 (Thread-281): 07:12:49  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a546baeb0>]}
+2022-01-27 07:12:49.285339 (Thread-281): 07:12:49  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:12:49.286250 (Thread-281): 07:12:49  The selection criterion '+models/staging/employee_dept/get_emp_info.sql+' does not match any nodes
+2022-01-27 07:12:49.286415 (Thread-281): 07:12:49  No nodes selected!
+2022-01-27 07:12:49.287845 (Thread-281): sending response (<Response 1958 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:53.354136 (Thread-282): handling status request
+2022-01-27 07:12:53.354533 (Thread-282): 07:12:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c1b3af0>]}
+2022-01-27 07:12:53.355148 (Thread-282): sending response (<Response 3650 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:53.360373 (Thread-283): handling list request
+2022-01-27 07:12:53.360643 (Thread-283): 07:12:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c1b3400>]}
+2022-01-27 07:12:53.393235 (Thread-283): 07:12:53  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a54568be0>]}
+2022-01-27 07:12:53.393613 (Thread-283): 07:12:53  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:12:53.396428 (Thread-283): 07:12:53  The selection criterion '+models/staging/employee_dept/stg_knoema_stock_history.sql+' does not match any nodes
+2022-01-27 07:12:53.396623 (Thread-283): 07:12:53  No nodes selected!
+2022-01-27 07:12:53.398083 (Thread-283): sending response (<Response 1970 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:55.867166 (Thread-284): handling status request
+2022-01-27 07:12:55.867575 (Thread-284): 07:12:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459a3d0>]}
+2022-01-27 07:12:55.868177 (Thread-284): sending response (<Response 3650 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:12:55.878465 (Thread-285): handling list request
+2022-01-27 07:12:55.878788 (Thread-285): 07:12:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3af4063eb0>]}
+2022-01-27 07:12:55.911002 (Thread-285): 07:12:55  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a5459e520>]}
+2022-01-27 07:12:55.911399 (Thread-285): 07:12:55  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:12:55.912314 (Thread-285): 07:12:55  The selection criterion '+models/staging/employee_dept/get_emp_info.sql+' does not match any nodes
+2022-01-27 07:12:55.912486 (Thread-285): 07:12:55  No nodes selected!
+2022-01-27 07:12:55.913858 (Thread-285): sending response (<Response 1958 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:13:32.956991 (Thread-286): handling status request
+2022-01-27 07:13:32.957419 (Thread-286): 07:13:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3aec7d4fd0>]}
+2022-01-27 07:13:32.957986 (Thread-286): sending response (<Response 3650 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:13:32.966150 (Thread-287): handling list request
+2022-01-27 07:13:32.966455 (Thread-287): 07:13:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a8c3bc760>]}
+2022-01-27 07:13:32.994697 (Thread-287): 07:13:32  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3aec7d4a00>]}
+2022-01-27 07:13:32.995070 (Thread-287): 07:13:32  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:13:32.998409 (Thread-287): 07:13:32  The selection criterion '+1643263787644/__unsaved/Statement' does not match any nodes
+2022-01-27 07:13:32.998661 (Thread-287): 07:13:32  The selection criterion '1.sql+' does not match any nodes
+2022-01-27 07:13:32.998779 (Thread-287): 07:13:32  No nodes selected!
+2022-01-27 07:13:33.000441 (Thread-287): sending response (<Response 2348 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:14:29.842128 (Thread-288): handling status request
+2022-01-27 07:14:29.842538 (Thread-288): 07:14:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3acc0fd490>]}
+2022-01-27 07:14:29.843164 (Thread-288): sending response (<Response 3672 bytes [200 OK]>) to 10.0.31.169
