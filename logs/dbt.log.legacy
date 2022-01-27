@@ -3202,3 +3202,693 @@ There are 2 unused configuration paths:
 2022-01-27 07:38:50.481877 (Thread-372): handling status request
 2022-01-27 07:38:50.482291 (Thread-372): 07:38:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bd5e0>]}
 2022-01-27 07:38:50.483289 (Thread-372): sending response (<Response 16491 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:38:54.172961 (Thread-373): handling status request
+2022-01-27 07:38:54.173388 (Thread-373): 07:38:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bdb20>]}
+2022-01-27 07:38:54.174353 (Thread-373): sending response (<Response 16491 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:38:55.914795 (Thread-374): 07:38:55  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 07:38:55.915023 (Thread-374): 07:38:55  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 07:38:55.920856 (Thread-374): 07:38:55  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34623850>]}
+2022-01-27 07:38:56.805727 (Thread-375): handling status request
+2022-01-27 07:38:56.806176 (Thread-375): 07:38:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a346b3cd0>]}
+2022-01-27 07:38:56.806698 (Thread-375): sending response (<Response 1244 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:38:56.846715 (Thread-376): handling status request
+2022-01-27 07:38:56.847168 (Thread-376): 07:38:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a346a87f0>]}
+2022-01-27 07:38:56.847675 (Thread-376): sending response (<Response 1244 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:39:00.033364 (Thread-377): handling status request
+2022-01-27 07:39:00.033775 (Thread-377): 07:39:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bdc70>]}
+2022-01-27 07:39:00.034301 (Thread-377): sending response (<Response 1244 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:39:00.416524 (Thread-378): handling status request
+2022-01-27 07:39:00.416887 (Thread-378): 07:39:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bda30>]}
+2022-01-27 07:39:00.417347 (Thread-378): sending response (<Response 1244 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 07:39:00.522278 (Thread-379): handling cli_args request
+2022-01-27 07:39:00.522648 (Thread-379): 07:39:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bd5b0>]}
+2022-01-27 07:39:02.815903 (Thread-379): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 07:39:02.904760 (MainThread): 07:39:02  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 07:39:02.905216 (MainThread): 07:39:02  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 07:39:02.911880 (MainThread): 07:39:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '03f2137b-11bf-4bea-aae9-baad0ec9cf46', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47e514cd00>]}
+2022-01-27 07:39:02.938865 (MainThread): 07:39:02  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '03f2137b-11bf-4bea-aae9-baad0ec9cf46', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f47e59d5640>]}
+2022-01-27 07:39:02.939344 (MainThread): 07:39:02  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:39:02.939735 (MainThread): 07:39:02  The selection criterion 'staging.*' does not match any nodes
+2022-01-27 07:39:02.940437 (MainThread): 07:39:02  
+2022-01-27 07:39:02.940555 (MainThread): 07:39:02  [WARNING]: Nothing to do. Try checking your model configs and model specification args
+2022-01-27 07:39:03.329163 (Thread-380): handling poll request
+2022-01-27 07:39:03.329648 (Thread-380): 07:39:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34636fa0>]}
+2022-01-27 07:39:03.330674 (Thread-380): sending response (<Response 3235 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 07:39:04.220297 (Thread-381): handling status request
+2022-01-27 07:39:04.220714 (Thread-381): 07:39:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34606880>]}
+2022-01-27 07:39:04.221245 (Thread-381): sending response (<Response 1244 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 07:39:04.258898 (Thread-382): handling status request
+2022-01-27 07:39:04.259368 (Thread-382): 07:39:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bd340>]}
+2022-01-27 07:39:04.259857 (Thread-382): sending response (<Response 1244 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:39:25.783285 (Thread-383): handling status request
+2022-01-27 07:39:25.783678 (Thread-383): 07:39:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3461d580>]}
+2022-01-27 07:39:25.784161 (Thread-383): sending response (<Response 1222 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:39:25.798737 (Thread-384): handling list request
+2022-01-27 07:39:25.799170 (Thread-384): 07:39:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3461db20>]}
+2022-01-27 07:39:25.829389 (Thread-384): 07:39:25  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3461f250>]}
+2022-01-27 07:39:25.829723 (Thread-384): 07:39:25  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:39:25.835776 (Thread-384): sending response (<Response 1688 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:39:26.190904 (Thread-385): handling status request
+2022-01-27 07:39:26.191304 (Thread-385): 07:39:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347bd0a0>]}
+2022-01-27 07:39:26.191775 (Thread-385): sending response (<Response 1222 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:39:26.197061 (Thread-386): handling list request
+2022-01-27 07:39:26.197307 (Thread-386): 07:39:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34623430>]}
+2022-01-27 07:39:26.228834 (Thread-386): 07:39:26  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3461f670>]}
+2022-01-27 07:39:26.229157 (Thread-386): 07:39:26  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:39:26.231721 (Thread-386): sending response (<Response 1688 bytes [200 OK]>) to 10.0.4.197
+2022-01-27 07:39:34.717434 (Thread-387): handling status request
+2022-01-27 07:39:34.717843 (Thread-387): 07:39:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a345fe460>]}
+2022-01-27 07:39:34.718334 (Thread-387): sending response (<Response 1244 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:39:35.346559 (Thread-388): handling run_sql request
+2022-01-27 07:39:35.346966 (Thread-388): 07:39:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a345fe1f0>]}
+2022-01-27 07:39:37.615065 (Thread-388): sending response (<Response 138 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:39:37.639889 (MainThread): 07:39:37  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '74dcc905-e5ae-4124-8ea3-05629a4f4ccd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c10da06d0>]}
+2022-01-27 07:39:37.640570 (MainThread): 07:39:37  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:39:37.641186 (Thread-1): 07:39:37  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:39:37.641321 (Thread-1): 07:39:37  Began compiling node rpc.dbt_project.request
+2022-01-27 07:39:37.641412 (Thread-1): 07:39:37  Compiling rpc.dbt_project.request
+2022-01-27 07:39:37.644223 (Thread-1): 07:39:37  finished collecting timing info
+2022-01-27 07:39:37.644373 (Thread-1): 07:39:37  Began executing node rpc.dbt_project.request
+2022-01-27 07:39:37.645067 (Thread-1): 07:39:37  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:39:37.645157 (Thread-1): 07:39:37  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dept_id from source_data
+inner join dev.dbt_schema.department)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:39:37.645239 (Thread-1): 07:39:37  Opening a new connection, currently in state init
+2022-01-27 07:39:38.147826 (Thread-389): handling poll request
+2022-01-27 07:39:38.148269 (Thread-389): 07:39:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3acc0fd790>]}
+2022-01-27 07:39:38.149128 (Thread-389): sending response (<Response 3902 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:39:38.537709 (Thread-1): 07:39:38  Snowflake adapter: Snowflake query id: 01a1e7ab-0000-15c2-0000-4c4500010b6e
+2022-01-27 07:39:38.537935 (Thread-1): 07:39:38  Snowflake adapter: Snowflake error: 002028 (42601): SQL compilation error:
+ambiguous column name 'DEPT_ID'
+2022-01-27 07:39:38.538124 (Thread-1): 07:39:38  finished collecting timing info
+2022-01-27 07:39:38.538322 (Thread-1): 07:39:38  On rpc.dbt_project.request: Close
+2022-01-27 07:39:38.754807 (Thread-1): Got an exception: Database Error
+  002028 (42601): SQL compilation error:
+  ambiguous column name 'DEPT_ID'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002028 (42601): SQL compilation error:
+ambiguous column name 'DEPT_ID'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  002028 (42601): SQL compilation error:
+  ambiguous column name 'DEPT_ID'
+2022-01-27 07:39:38.755985 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  002028 (42601): SQL compilation error:\n  ambiguous column name 'DEPT_ID'", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,dept_id from source_data\r\ninner join {{ source('employee_dept', 'department') }})\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dept_id from source_data\ninner join dev.dbt_schema.department)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  002028 (42601): SQL compilation error:\n  ambiguous column name 'DEPT_ID'", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,dept_id from source_data\r\ninner join {{ source('employee_dept', 'department') }})\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dept_id from source_data\ninner join dev.dbt_schema.department)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-01-27 07:39:39.653317 (Thread-390): handling poll request
+2022-01-27 07:39:39.653732 (Thread-390): 07:39:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34582580>]}
+2022-01-27 07:39:39.654386 (Thread-390): sending response (<Response 11312 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 07:40:04.257763 (Thread-391): handling status request
+2022-01-27 07:40:04.258191 (Thread-391): 07:40:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34582df0>]}
+2022-01-27 07:40:04.258725 (Thread-391): sending response (<Response 1244 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 07:40:04.769113 (Thread-392): handling run_sql request
+2022-01-27 07:40:04.769519 (Thread-392): 07:40:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3458b190>]}
+2022-01-27 07:40:06.997689 (Thread-392): sending response (<Response 138 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:40:07.025590 (MainThread): 07:40:07  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5d52a3f0-6046-439f-adee-7277455edf21', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b1fbd3f40>]}
+2022-01-27 07:40:07.026304 (MainThread): 07:40:07  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:40:07.026942 (Thread-1): 07:40:07  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:40:07.027099 (Thread-1): 07:40:07  Began compiling node rpc.dbt_project.request
+2022-01-27 07:40:07.027204 (Thread-1): 07:40:07  Compiling rpc.dbt_project.request
+2022-01-27 07:40:07.030653 (Thread-1): 07:40:07  finished collecting timing info
+2022-01-27 07:40:07.030795 (Thread-1): 07:40:07  Began executing node rpc.dbt_project.request
+2022-01-27 07:40:07.031625 (Thread-1): 07:40:07  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:40:07.031728 (Thread-1): 07:40:07  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:40:07.032050 (Thread-1): 07:40:07  Opening a new connection, currently in state init
+2022-01-27 07:40:07.532887 (Thread-393): handling poll request
+2022-01-27 07:40:07.533377 (Thread-393): 07:40:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3458f250>]}
+2022-01-27 07:40:07.534264 (Thread-393): sending response (<Response 3964 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 07:40:08.553335 (Thread-1): 07:40:08  SQL status: SUCCESS 16 in 1.52 seconds
+2022-01-27 07:40:08.555728 (Thread-1): 07:40:08  finished collecting timing info
+2022-01-27 07:40:08.555964 (Thread-1): 07:40:08  On rpc.dbt_project.request: Close
+2022-01-27 07:40:09.075586 (Thread-394): handling poll request
+2022-01-27 07:40:09.075991 (Thread-394): 07:40:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3458f940>]}
+2022-01-27 07:40:09.077006 (Thread-394): sending response (<Response 5401 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:40:37.576877 (Thread-395): 07:40:37  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:40:37.577373 (Thread-395): 07:40:37  Partial parsing: updated file: dbt_project://models/employee_dept/employee_dept.sql
+2022-01-27 07:40:37.752741 (Thread-395): 07:40:37  1699: static parser successfully parsed employee_dept/employee_dept.sql
+2022-01-27 07:40:37.803173 (Thread-395): 07:40:37  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a346774c0>]}
+2022-01-27 07:40:38.421298 (Thread-396): handling status request
+2022-01-27 07:40:38.421685 (Thread-396): 07:40:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a344c09a0>]}
+2022-01-27 07:40:38.422190 (Thread-396): sending response (<Response 1581 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 07:40:38.446410 (Thread-397): handling status request
+2022-01-27 07:40:38.446745 (Thread-397): 07:40:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3458bfd0>]}
+2022-01-27 07:40:38.447249 (Thread-397): sending response (<Response 1581 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 07:40:40.002451 (Thread-398): handling status request
+2022-01-27 07:40:40.002846 (Thread-398): 07:40:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34582cd0>]}
+2022-01-27 07:40:40.025649 (Thread-398): sending response (<Response 1581 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 07:40:40.518328 (Thread-399): handling run_sql request
+2022-01-27 07:40:40.518694 (Thread-399): 07:40:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34677a00>]}
+2022-01-27 07:40:42.710172 (Thread-399): sending response (<Response 138 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 07:40:42.734893 (MainThread): 07:40:42  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '911df062-54d3-4ab4-bd03-6b20a76f8149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa628ad9ca0>]}
+2022-01-27 07:40:42.735598 (MainThread): 07:40:42  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:40:42.736220 (Thread-1): 07:40:42  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:40:42.736354 (Thread-1): 07:40:42  Began compiling node rpc.dbt_project.request
+2022-01-27 07:40:42.736446 (Thread-1): 07:40:42  Compiling rpc.dbt_project.request
+2022-01-27 07:40:42.739695 (Thread-1): 07:40:42  finished collecting timing info
+2022-01-27 07:40:42.739826 (Thread-1): 07:40:42  Began executing node rpc.dbt_project.request
+2022-01-27 07:40:42.740572 (Thread-1): 07:40:42  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:40:42.740660 (Thread-1): 07:40:42  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department on dept_id)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:40:42.740741 (Thread-1): 07:40:42  Opening a new connection, currently in state init
+2022-01-27 07:40:43.351346 (Thread-400): handling poll request
+2022-01-27 07:40:43.351813 (Thread-400): 07:40:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3472af70>]}
+2022-01-27 07:40:43.352744 (Thread-400): sending response (<Response 3975 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:40:43.446612 (Thread-1): 07:40:43  Snowflake adapter: Snowflake query id: 01a1e7ac-0000-15c2-0000-4c4500010b72
+2022-01-27 07:40:43.446840 (Thread-1): 07:40:43  Snowflake adapter: Snowflake error: 002028 (42601): SQL compilation error:
+ambiguous column name 'DEPT_ID'
+2022-01-27 07:40:43.447027 (Thread-1): 07:40:43  finished collecting timing info
+2022-01-27 07:40:43.447281 (Thread-1): 07:40:43  On rpc.dbt_project.request: Close
+2022-01-27 07:40:43.656783 (Thread-1): Got an exception: Database Error
+  002028 (42601): SQL compilation error:
+  ambiguous column name 'DEPT_ID'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002028 (42601): SQL compilation error:
+ambiguous column name 'DEPT_ID'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  002028 (42601): SQL compilation error:
+  ambiguous column name 'DEPT_ID'
+2022-01-27 07:40:43.657875 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  002028 (42601): SQL compilation error:\n  ambiguous column name 'DEPT_ID'", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} on dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department on dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  002028 (42601): SQL compilation error:\n  ambiguous column name 'DEPT_ID'", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} on dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department on dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-01-27 07:40:44.855118 (Thread-401): handling poll request
+2022-01-27 07:40:44.855485 (Thread-401): 07:40:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3472adc0>]}
+2022-01-27 07:40:44.856086 (Thread-401): sending response (<Response 11931 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 07:40:57.559927 (Thread-402): handling status request
+2022-01-27 07:40:57.560332 (Thread-402): 07:40:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a346f4430>]}
+2022-01-27 07:40:57.560887 (Thread-402): sending response (<Response 1581 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:40:58.044726 (Thread-403): handling run_sql request
+2022-01-27 07:40:58.045108 (Thread-403): 07:40:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a346f4940>]}
+2022-01-27 07:41:00.262315 (Thread-403): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 07:41:00.286559 (MainThread): 07:41:00  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ed6b020a-ff1e-4464-884c-87d53741f75b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92c52d8c70>]}
+2022-01-27 07:41:00.287257 (MainThread): 07:41:00  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:41:00.287879 (Thread-1): 07:41:00  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:00.288017 (Thread-1): 07:41:00  Began compiling node rpc.dbt_project.request
+2022-01-27 07:41:00.288112 (Thread-1): 07:41:00  Compiling rpc.dbt_project.request
+2022-01-27 07:41:00.291346 (Thread-1): 07:41:00  finished collecting timing info
+2022-01-27 07:41:00.291479 (Thread-1): 07:41:00  Began executing node rpc.dbt_project.request
+2022-01-27 07:41:00.292239 (Thread-1): 07:41:00  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:00.292329 (Thread-1): 07:41:00  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department on { source('employee_dept', 'department') }}.dept_id)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:41:00.292414 (Thread-1): 07:41:00  Opening a new connection, currently in state init
+2022-01-27 07:41:00.727723 (Thread-404): handling poll request
+2022-01-27 07:41:00.728203 (Thread-404): 07:41:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a344c0880>]}
+2022-01-27 07:41:00.729072 (Thread-404): sending response (<Response 4018 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:41:00.996536 (Thread-1): 07:41:00  Snowflake adapter: Snowflake query id: 01a1e7ad-0000-15c2-0000-4c4500010b76
+2022-01-27 07:41:00.996766 (Thread-1): 07:41:00  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'on'.
+syntax error line 5 at position 49 unexpected ''employee_dept''.
+syntax error line 5 at position 80 unexpected '}'.
+2022-01-27 07:41:00.996970 (Thread-1): 07:41:00  finished collecting timing info
+2022-01-27 07:41:00.997171 (Thread-1): 07:41:00  On rpc.dbt_project.request: Close
+2022-01-27 07:41:01.214378 (Thread-1): Got an exception: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'on'.
+  syntax error line 5 at position 49 unexpected ''employee_dept''.
+  syntax error line 5 at position 80 unexpected '}'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'on'.
+syntax error line 5 at position 49 unexpected ''employee_dept''.
+syntax error line 5 at position 80 unexpected '}'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'on'.
+  syntax error line 5 at position 49 unexpected ''employee_dept''.
+  syntax error line 5 at position 80 unexpected '}'.
+2022-01-27 07:41:01.215501 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'on'.\n  syntax error line 5 at position 49 unexpected ''employee_dept''.\n  syntax error line 5 at position 80 unexpected '}'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} on { source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': "\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department on { source('employee_dept', 'department') }}.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'on'.\n  syntax error line 5 at position 49 unexpected ''employee_dept''.\n  syntax error line 5 at position 80 unexpected '}'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} on { source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': "\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department on { source('employee_dept', 'department') }}.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'tags': None}, None)
+2022-01-27 07:41:02.235246 (Thread-405): handling poll request
+2022-01-27 07:41:02.235648 (Thread-405): 07:41:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34677730>]}
+2022-01-27 07:41:02.236317 (Thread-405): sending response (<Response 13226 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 07:41:18.268779 (Thread-406): handling status request
+2022-01-27 07:41:18.269170 (Thread-406): 07:41:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34698cd0>]}
+2022-01-27 07:41:18.269713 (Thread-406): sending response (<Response 1581 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:41:18.784400 (Thread-407): handling run_sql request
+2022-01-27 07:41:18.784784 (Thread-407): 07:41:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34698a30>]}
+2022-01-27 07:41:21.004037 (Thread-407): sending response (<Response 138 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:41:21.029318 (MainThread): 07:41:21  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ef539f7f-cdc4-467d-b5da-1189baa3147f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b4c751c40>]}
+2022-01-27 07:41:21.029998 (MainThread): 07:41:21  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:41:21.030615 (Thread-1): 07:41:21  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:21.030747 (Thread-1): 07:41:21  Began compiling node rpc.dbt_project.request
+2022-01-27 07:41:21.030839 (Thread-1): 07:41:21  Compiling rpc.dbt_project.request
+2022-01-27 07:41:21.034172 (Thread-1): 07:41:21  finished collecting timing info
+2022-01-27 07:41:21.034324 (Thread-1): 07:41:21  Began executing node rpc.dbt_project.request
+2022-01-27 07:41:21.035141 (Thread-1): 07:41:21  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:21.035236 (Thread-1): 07:41:21  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department using { source('employee_dept', 'department') }}.dept_id)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:41:21.035318 (Thread-1): 07:41:21  Opening a new connection, currently in state init
+2022-01-27 07:41:21.536461 (Thread-408): handling poll request
+2022-01-27 07:41:21.536904 (Thread-408): 07:41:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34690a60>]}
+2022-01-27 07:41:21.537772 (Thread-408): sending response (<Response 4020 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 07:41:21.689331 (Thread-1): 07:41:21  Snowflake adapter: Snowflake query id: 01a1e7ad-0000-15d2-0000-4c45000126b6
+2022-01-27 07:41:21.689646 (Thread-1): 07:41:21  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+syntax error line 5 at position 52 unexpected ''employee_dept''.
+syntax error line 5 at position 83 unexpected '}'.
+2022-01-27 07:41:21.689926 (Thread-1): 07:41:21  finished collecting timing info
+2022-01-27 07:41:21.690208 (Thread-1): 07:41:21  On rpc.dbt_project.request: Close
+2022-01-27 07:41:21.904399 (Thread-1): Got an exception: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+  syntax error line 5 at position 52 unexpected ''employee_dept''.
+  syntax error line 5 at position 83 unexpected '}'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+syntax error line 5 at position 52 unexpected ''employee_dept''.
+syntax error line 5 at position 83 unexpected '}'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+  syntax error line 5 at position 52 unexpected ''employee_dept''.
+  syntax error line 5 at position 83 unexpected '}'.
+2022-01-27 07:41:21.905437 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.\n  syntax error line 5 at position 52 unexpected ''employee_dept''.\n  syntax error line 5 at position 83 unexpected '}'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using { source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': "\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using { source('employee_dept', 'department') }}.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.\n  syntax error line 5 at position 52 unexpected ''employee_dept''.\n  syntax error line 5 at position 83 unexpected '}'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using { source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': "\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using { source('employee_dept', 'department') }}.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'tags': None}, None)
+2022-01-27 07:41:23.038472 (Thread-409): handling poll request
+2022-01-27 07:41:23.038852 (Thread-409): 07:41:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347525b0>]}
+2022-01-27 07:41:23.039498 (Thread-409): sending response (<Response 13268 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 07:41:41.209927 (Thread-410): handling status request
+2022-01-27 07:41:41.210332 (Thread-410): 07:41:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34752850>]}
+2022-01-27 07:41:41.210882 (Thread-410): sending response (<Response 1581 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 07:41:41.689513 (Thread-411): handling run_sql request
+2022-01-27 07:41:41.689909 (Thread-411): 07:41:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34752940>]}
+2022-01-27 07:41:43.897398 (Thread-411): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 07:41:43.924883 (MainThread): 07:41:43  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f20f79b4-d8fe-4a92-9682-590dced1f1c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1987d1c10>]}
+2022-01-27 07:41:43.925570 (MainThread): 07:41:43  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:41:43.926196 (Thread-1): 07:41:43  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:43.926329 (Thread-1): 07:41:43  Began compiling node rpc.dbt_project.request
+2022-01-27 07:41:43.926423 (Thread-1): 07:41:43  Compiling rpc.dbt_project.request
+2022-01-27 07:41:43.929993 (Thread-1): 07:41:43  finished collecting timing info
+2022-01-27 07:41:43.930127 (Thread-1): 07:41:43  Began executing node rpc.dbt_project.request
+2022-01-27 07:41:43.930902 (Thread-1): 07:41:43  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:41:43.930990 (Thread-1): 07:41:43  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department using dev.dbt_schema.department.dept_id)
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:41:43.931232 (Thread-1): 07:41:43  Opening a new connection, currently in state init
+2022-01-27 07:41:44.396126 (Thread-412): handling poll request
+2022-01-27 07:41:44.396601 (Thread-412): 07:41:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34757dc0>]}
+2022-01-27 07:41:44.397483 (Thread-412): sending response (<Response 4004 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 07:41:44.614008 (Thread-1): 07:41:44  Snowflake adapter: Snowflake query id: 01a1e7ad-0000-15c2-0000-4c4500010b7a
+2022-01-27 07:41:44.614257 (Thread-1): 07:41:44  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+2022-01-27 07:41:44.614458 (Thread-1): 07:41:44  finished collecting timing info
+2022-01-27 07:41:44.614663 (Thread-1): 07:41:44  On rpc.dbt_project.request: Close
+2022-01-27 07:41:44.824095 (Thread-1): Got an exception: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+2022-01-27 07:41:44.825155 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using {{ source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using dev.dbt_schema.department.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using {{ source('employee_dept', 'department') }}.dept_id)\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using dev.dbt_schema.department.dept_id)\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-01-27 07:41:45.877700 (Thread-413): handling poll request
+2022-01-27 07:41:45.878115 (Thread-413): 07:41:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a34757400>]}
+2022-01-27 07:41:45.878805 (Thread-413): sending response (<Response 12349 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 07:42:11.498823 (Thread-414): handling status request
+2022-01-27 07:42:11.499274 (Thread-414): 07:42:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347b6d00>]}
+2022-01-27 07:42:11.499940 (Thread-414): sending response (<Response 1581 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 07:42:12.074381 (Thread-415): handling run_sql request
+2022-01-27 07:42:12.074753 (Thread-415): 07:42:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347b6cd0>]}
+2022-01-27 07:42:14.266659 (Thread-415): sending response (<Response 138 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 07:42:14.291415 (MainThread): 07:42:14  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9c9978de-6a27-4ffa-b4d0-e4a1852aa5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb721e92c40>]}
+2022-01-27 07:42:14.292073 (MainThread): 07:42:14  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:42:14.292689 (Thread-1): 07:42:14  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:42:14.292829 (Thread-1): 07:42:14  Began compiling node rpc.dbt_project.request
+2022-01-27 07:42:14.292923 (Thread-1): 07:42:14  Compiling rpc.dbt_project.request
+2022-01-27 07:42:14.296434 (Thread-1): 07:42:14  finished collecting timing info
+2022-01-27 07:42:14.296569 (Thread-1): 07:42:14  Began executing node rpc.dbt_project.request
+2022-01-27 07:42:14.297343 (Thread-1): 07:42:14  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:42:14.297433 (Thread-1): 07:42:14  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+inner join dev.dbt_schema.department using (dev.dbt_schema.department.dept_id))
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:42:14.297513 (Thread-1): 07:42:14  Opening a new connection, currently in state init
+2022-01-27 07:42:14.777482 (Thread-416): handling poll request
+2022-01-27 07:42:14.777956 (Thread-416): 07:42:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347478e0>]}
+2022-01-27 07:42:14.778861 (Thread-416): sending response (<Response 4006 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:42:14.979425 (Thread-1): 07:42:14  Snowflake adapter: Snowflake query id: 01a1e7ae-0000-15d2-0000-4c45000126ba
+2022-01-27 07:42:14.979658 (Thread-1): 07:42:14  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+syntax error line 5 at position 44 unexpected 'dev'.
+syntax error line 5 at position 78 unexpected ')'.
+2022-01-27 07:42:14.979859 (Thread-1): 07:42:14  finished collecting timing info
+2022-01-27 07:42:14.980055 (Thread-1): 07:42:14  On rpc.dbt_project.request: Close
+2022-01-27 07:42:15.182479 (Thread-1): Got an exception: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+  syntax error line 5 at position 44 unexpected 'dev'.
+  syntax error line 5 at position 78 unexpected ')'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 204, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/cursor.py", line 798, in execute
+    Error.errorhandler_wrapper(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 272, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 327, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/usr/local/lib/python3.8/dist-packages/snowflake/connector/errors.py", line 206, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 5 at position 37 unexpected 'using'.
+syntax error line 5 at position 44 unexpected 'dev'.
+syntax error line 5 at position 78 unexpected ')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 431, in add_query
+    connection, cursor = super().add_query(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/snowflake/connections.py", line 221, in exception_handler
+    raise DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  001003 (42000): SQL compilation error:
+  syntax error line 5 at position 37 unexpected 'using'.
+  syntax error line 5 at position 44 unexpected 'dev'.
+  syntax error line 5 at position 78 unexpected ')'.
+2022-01-27 07:42:15.183502 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.\n  syntax error line 5 at position 44 unexpected 'dev'.\n  syntax error line 5 at position 78 unexpected ')'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using ({{ source('employee_dept', 'department') }}.dept_id))\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using (dev.dbt_schema.department.dept_id))\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  001003 (42000): SQL compilation error:\n  syntax error line 5 at position 37 unexpected 'using'.\n  syntax error line 5 at position 44 unexpected 'dev'.\n  syntax error line 5 at position 78 unexpected ')'.", 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith source_data as (\r\n  select * from {{ source('employee_dept', 'employee') }} \r\n),\r\nfinal as (select emp_id,emp_name,{{ source('employee_dept', 'department') }}.dept_id,{{ source('employee_dept', 'department') }}.dept_name from source_data\r\ninner join {{ source('employee_dept', 'department') }} using ({{ source('employee_dept', 'department') }}.dept_id))\r\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith source_data as (\n  select * from dev.dbt_schema.employee \n),\nfinal as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data\ninner join dev.dbt_schema.department using (dev.dbt_schema.department.dept_id))\nselect * from final\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-01-27 07:42:16.264405 (Thread-417): handling poll request
+2022-01-27 07:42:16.264810 (Thread-417): 07:42:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347471c0>]}
+2022-01-27 07:42:16.265473 (Thread-417): sending response (<Response 13129 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 07:43:01.700218 (Thread-418): handling status request
+2022-01-27 07:43:01.700606 (Thread-418): 07:43:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3478f070>]}
+2022-01-27 07:43:01.701136 (Thread-418): sending response (<Response 1581 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:43:02.232620 (Thread-419): handling run_sql request
+2022-01-27 07:43:02.233050 (Thread-419): 07:43:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3478f910>]}
+2022-01-27 07:43:04.488919 (Thread-419): sending response (<Response 138 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 07:43:04.517581 (MainThread): 07:43:04  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5e27fe5f-31e8-4802-9877-0cfdec3fd380', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8fffbd9fd0>]}
+2022-01-27 07:43:04.518317 (MainThread): 07:43:04  Found 3 models, 4 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-01-27 07:43:04.518976 (Thread-1): 07:43:04  Acquiring new snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:43:04.519150 (Thread-1): 07:43:04  Began compiling node rpc.dbt_project.request
+2022-01-27 07:43:04.519250 (Thread-1): 07:43:04  Compiling rpc.dbt_project.request
+2022-01-27 07:43:04.522794 (Thread-1): 07:43:04  finished collecting timing info
+2022-01-27 07:43:04.522940 (Thread-1): 07:43:04  Began executing node rpc.dbt_project.request
+2022-01-27 07:43:04.523765 (Thread-1): 07:43:04  Using snowflake connection "rpc.dbt_project.request"
+2022-01-27 07:43:04.523998 (Thread-1): 07:43:04  On rpc.dbt_project.request: with source_data as (
+  select * from dev.dbt_schema.employee 
+),
+final as (select emp_id,emp_name,dev.dbt_schema.department.dept_id,dev.dbt_schema.department.dept_name from source_data
+ join dev.dbt_schema.department using (dept_id))
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-01-27 07:43:04.524095 (Thread-1): 07:43:04  Opening a new connection, currently in state init
+2022-01-27 07:43:05.010351 (Thread-420): handling poll request
+2022-01-27 07:43:05.010815 (Thread-420): 07:43:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3470a730>]}
+2022-01-27 07:43:05.011704 (Thread-420): sending response (<Response 3975 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 07:43:05.737697 (Thread-1): 07:43:05  SQL status: SUCCESS 4 in 1.21 seconds
+2022-01-27 07:43:05.739788 (Thread-1): 07:43:05  finished collecting timing info
+2022-01-27 07:43:05.740008 (Thread-1): 07:43:05  On rpc.dbt_project.request: Close
+2022-01-27 07:43:06.536608 (Thread-421): handling poll request
+2022-01-27 07:43:06.537010 (Thread-421): 07:43:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3470ad00>]}
+2022-01-27 07:43:06.537984 (Thread-421): sending response (<Response 5061 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 07:43:14.627494 (Thread-422): 07:43:14  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 07:43:14.627979 (Thread-422): 07:43:14  Partial parsing: updated file: dbt_project://models/employee_dept/employee_dept.sql
+2022-01-27 07:43:14.633008 (Thread-422): 07:43:14  1699: static parser successfully parsed employee_dept/employee_dept.sql
+2022-01-27 07:43:14.682513 (Thread-422): 07:43:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347ef820>]}
+2022-01-27 07:43:15.440859 (Thread-423): handling status request
+2022-01-27 07:43:15.441340 (Thread-423): 07:43:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a3470a2b0>]}
+2022-01-27 07:43:15.441897 (Thread-423): sending response (<Response 1581 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 07:43:15.552431 (Thread-424): handling status request
+2022-01-27 07:43:15.552831 (Thread-424): 07:43:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47de3621-f005-4d2a-b854-7b49cd7f8164', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3a347a9220>]}
+2022-01-27 07:43:15.553393 (Thread-424): sending response (<Response 1581 bytes [200 OK]>) to 10.0.32.193
