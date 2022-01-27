@@ -6,4 +6,4 @@ sources:
     schema: dbt_schema
     tables:
       - name: employee
-      - name: departments
+      - name: department
