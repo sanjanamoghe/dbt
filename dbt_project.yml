@@ -35,9 +35,6 @@ models:
   dbt_project:
       example:
           schema: example 
-      staging:
-          schema: staging
-          materialized: view
-      marts:
-          schema: marts
+      employee_dept:
+          schema: employee_dept
           materialized: table
